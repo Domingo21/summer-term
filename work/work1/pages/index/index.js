@@ -1,15 +1,23 @@
-Page({
+// index.js
+// 获取应用实例
+const app = getApp()
 
-  /**
-   * 页面的初始数据
-   */
+Page({
   data: {
-    src:'/pages/images/logo.png',
-    name:'Hello World!'
+    src : '/pages/images/logo.png',
+    name : 'Hello world'
   },
 
-   // 获取用户信息
-   getMyInfo: function(e) {
+  onLoad() {
+    if (wx.getUserProfile) {
+      this.setData({
+        canIUseGetUserProfile: true
+      })
+    }
+  },
+
+  // 获取用户信息
+  getMyInfo: function(e) {
     // 推荐使用wx.getUserProfile获取用户信息，开发者每次通过该接口获取用户个人信息均需用户确认，
     // 开发者妥善保管用户快速填写的头像昵称，避免重复弹窗
     wx.getUserProfile({
@@ -23,4 +31,5 @@ Page({
       }
     })
   },
+
 })

@@ -1,6 +1,8 @@
-<view class = 'container'>
-  <image  src = '{{src}}' mode = 'widthFix'></image>
+<!--index.wxml-->
+<view class="container">
+  <image src='{{src}}' mode='widthFix'></image>
   <text>{{name}}</text>
-  <button open-type= 'getUserInfo'bindgetuserinfo = 'getMyInfo'>点击获取头像</button>
+  <button open-type="getUserInfo" bindtap="getMyInfo">
+        点击获取头像和昵称
+  </button>
 </view>
-
