@@ -19,7 +19,7 @@
 
 ​	report：https://www.cnblogs.com/dht21/p/16620534.html
 
+### 实验6：安卓APP首页
 
-
-
+​	report：https://www.cnblogs.com/dht21/p/16620685.html
 
