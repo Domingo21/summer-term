@@ -15,6 +15,10 @@
 
 ​	report：https://www.cnblogs.com/dht21/p/16620194.html
 
+### 实验5：第一个安卓应用
+
+​	report：https://www.cnblogs.com/dht21/p/16620534.html
+
 
 
 
